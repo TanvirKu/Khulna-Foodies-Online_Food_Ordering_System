@@ -1,0 +1,354 @@
+/*!
+ * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ background-color:#c1e2b3
+ */
+
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background:rgba(255, 254, 186, 1);
+    background-image: url('/Home/img/BackGround/Third_Bg.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#search-bar{
+    margin-right: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: capitalize;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: whitesmoke;
+}
+
+hr {
+    max-width: 600px;
+    border-color: #999999;
+}
+.page-header{
+    margin-top: 0px;
+}
+.brand,
+.address-bar {
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+    /*background-image: url('/Home/img/NavBar.jpg');*/
+    background:rgba(42, 70, 51, 0.77);
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:rgba(42, 70, 51, 0.77);
+    z-index: 400;
+    padding: 0px;
+}
+
+.nav-placeholder{
+    margin: 0 0 40px 0;
+}
+
+.navbar-toggle{
+    border: 1px solid white;
+}
+.icon-bar{
+    border: 1px solid white;
+}
+.navbar-nav li{
+    border: 1.5px groove #ffc300;
+}
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border: 1px solid white;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    color: whitesmoke;
+    background:rgba(5, 30, 39, 0.73);
+}
+.carousel-inner{
+    max-height: 305px;
+}
+
+.img-responsive {
+    max-height: 300px;
+}
+.thumbnail{
+    height: 550px;
+    /*background-color:rgba(90, 50, 30, 0.8);*/
+    background:rgba(10,20,20, 0.8);
+
+}
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+footer {
+    padding: 50px;
+    background:rgba(5, 30, 39, 0.73);
+
+}
+
+footer p a:hover{
+    color:#00d60a ;
+}
+footer p {
+    color: whitesmoke;
+    margin: 0;
+    padding: 10px;
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+
+
+
+    .navbar-header {
+        display:none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        background: #fff;
+        background: rgba(255,255,255,0.9);
+    }
+
+
+    .nav>li>a {
+        padding: 14.5px;
+    }
+
+    .nav>li>div{
+        padding: 9px;
+    }
+    .navbar-nav>li>a {
+        line-height: normal;
+        color: #ffc300;
+    }
+    .navbar-nav>li>a:hover{
+        background:rgba(239, 235, 240, 0.37);
+        color: #000000;
+    }
+
+    .dropdown-menu>li>a:hover{
+        background:rgba(42, 70, 51, 0.77);
+        color:yellow;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+p>a:hover{
+    color: yellow;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px #000000;
+}
+
+
+#food-image{
+    height: 200px;
+    width: 200px;
+}
+#PriceTable{
+    color: whitesmoke;
+   /*background-image: url('/Home/img/NavBar.jpg');*/
+    background:rgba(5, 30, 39, 0.73);
+}
+#search-header{
+    color: whitesmoke;
+    /*background-image: url('/Home/img/NavBar.jpg');*/
+    background:rgba(5, 30, 39, 0.73);
+}
+#item-edit{
+    height: auto;
+    width: 580px;
+    background-color:transparent;
+}
+
+#admin-page-tab>h3>li>a:hover{
+    color: whitesmoke;
+}
+#total-table{
+    /*background-image: url('/Home/img/NavBar.jpg');*/
+    background:rgba(5, 30, 39, 0.73);
+}
+#panel_heading{
+
+    font-size: xx-large;
+}
+.panel{
+    background-image: url('/Home/img/BackGround/Third_Bg.png');
+}
+#details-panel{
+    padding: 2px;
+    color: whitesmoke;
+    /*background-image: url('/Home/img/NavBar.jpg');*/
+    background:rgba(5, 30, 39, 0.73);
+}
+#details-panel-zone{
+    padding: 2px;
+    padding-bottom: 15px ;
+    color: whitesmoke;
+    background-color: rgba(68, 72, 53, 0.84);
+}
+
+#sign-in>li>a:hover{
+    color: #00d60a;
+}
+#total-description>a:hover{
+    transform: scale(1.05,1.05);
+    transition-duration:500ms ;
+    border-radius: 0;
+    color:yellow;
+    background:rgba(10,20,20, 0.8);
+}
+
+#total-description-food>a:hover
+{
+    transform:scale(1.0,1.0);
+    transition-duration: 200ms;
+    color: yellow;
+    background:rgba(42, 70, 51, 0.77);
+    border:1px outset rgba(95, 89, 48,1);
+
+}
+
+#special-item:hover{
+    transform:scale(1.2,1.2);
+    transition-duration: 1s;
+    background:rgba(10,20,20, 0.8);
+    padding: 10px;
+}
+
+#all-foods:hover{
+    transform:scale(1.1,1.1);
+    transition-duration: 1s;
+}

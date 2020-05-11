@@ -1,0 +1,75 @@
+@charset "utf-8";
+body{
+    background-image: url('/images/banner-bg-4.png');
+
+}
+
+#PriceTable{
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+#wrapper{
+    padding: 5%;
+    background-image: url('/images/KO-background-header.jpg');
+    max-height: 50px;
+}
+#navMenu{
+    margin: 0;
+    padding: 0;
+}
+
+#navMenu ul {
+    margin: 0;
+    padding: 0;
+    line-height:30px;
+}
+#navMenu li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    position: relative;
+    background: #204C52;
+}
+
+#navMenu ul li a{
+    text-align: center;
+    font-family: "Comic Sans MS",cursive;
+    text-decoration: none;
+    height: 30px;
+    width: 180px;
+    display: block;
+    color: aliceblue;
+    border: 1px solid #FFF;
+    text-shadow: 1px 1px 1px #000;
+}
+#navMenu ul ul{
+    position: absolute;
+    visibility:hidden;
+    top: 32px;
+}
+
+#navMenu ul li:hover ul{
+    visibility: visible;
+}
+
+/***********************************************/
+
+#navMenu li:hover{
+    background:#A0A3AA;
+}
+
+#navMenu ul li:hover ul li a:hover{
+    background:#A5D6BF;
+    color: #204C52;
+}
+
+#navMenu a:hover{
+    color: #204C52;
+}
+
+.clearFloat{
+    clear: both;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,67 @@
+@charset "utf-8";
+#wrapper{
+    padding:1%;
+}
+#navMenu{
+    margin: 0;
+    padding: 0;
+}
+
+#navMenu ul {
+    margin: 0;
+    padding: 0;
+    line-height:90px;
+}
+
+#navMenu li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    position: relative;
+    animation-name: zoomIn;
+    animation-duration:3s;
+    background:#1B1F1D;
+}
+
+#navMenu ul li a{
+    text-align: center;
+    font-family: "Comic Sans MS",cursive;
+    text-decoration: none;
+    height: 90px;
+    width: 180px;
+    display: block;
+    color: #D5DEB6;
+    border: 1px solid #FFF;
+    text-shadow: 1px 1px 1px #000;
+}
+#navMenu ul ul{
+    position: absolute;
+    visibility:hidden;
+    top: 92px;
+}
+
+#navMenu ul li:hover ul{
+    visibility: visible;
+}
+
+/***********************************************/
+
+#navMenu li:hover{
+    background:#D5DEB6;
+}
+
+#navMenu ul li:hover ul li a:hover{
+    background:#419641;
+    color: #204C52;
+}
+
+#navMenu a:hover{
+    color: #000000;
+}
+
+.clearFloat{
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
